@@ -1,21 +1,21 @@
 /* B70 */
 
-#define BOARD_PID		"B70"
-#define BOARD_NAME		"B70"
-#define BOARD_DESC		"B70 Wireless Router"
+#define BOARD_PID		"E8820S"
+#define BOARD_NAME		"E8820S"
+#define BOARD_DESC		"E8820S Wireless Router"
 #define BOARD_VENDOR_NAME	"HiWiFi/Gee Technology"
 #define BOARD_VENDOR_URL	"http://www.hiwifi.com/"
 #define BOARD_MODEL_URL		"http://www.hiwifi.com/"
-#define BOARD_BOOT_TIME		80
-#define BOARD_FLASH_TIME	80
+#define BOARD_BOOT_TIME		30
+#define BOARD_FLASH_TIME	120
 #undef  BOARD_GPIO_BTN_FN1
 #define BOARD_GPIO_BTN_RESET    18
-#undef  BOARD_GPIO_BTN_WPS
+#undef  BOARD_GPIO_BTN_WPS    24  
 #undef  BOARD_GPIO_LED_ALL
 #define BOARD_GPIO_LED_WIFI	7
 #undef  BOARD_GPIO_LED_SW2G
 #undef  BOARD_GPIO_LED_SW5G
-#undef  BOARD_GPIO_LED_POWER
+#undef  BOARD_GPIO_LED_POWER    31
 #undef  BOARD_GPIO_LED_LAN
 #define BOARD_GPIO_LED_WAN	6
 #undef  BOARD_GPIO_LED_USB
