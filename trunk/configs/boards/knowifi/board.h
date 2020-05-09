@@ -4,14 +4,14 @@
 #define BOARD_NAME		"knowifi"
 #define BOARD_DESC		"knowifi Wireless Router"
 #define BOARD_VENDOR_NAME	"knowifi"
-#define BOARD_VENDOR_URL	"http://www.phicomm.com/"
-#define BOARD_MODEL_URL		"http://www.phicomm.com/"
+#define BOARD_VENDOR_URL	"http://www.knowifi.com/"
+#define BOARD_MODEL_URL		"http://www.knowifi.com/"
 #define BOARD_BOOT_TIME		25
 #define BOARD_FLASH_TIME	120
 #define BOARD_GPIO_BTN_RESET	1
 #undef  BOARD_GPIO_BTN_WPS
 #undef  BOARD_GPIO_LED_ALL
-#define  BOARD_GPIO_LED_WIFI	72
+#undef  BOARD_GPIO_LED_WIFI	
 #undef  BOARD_GPIO_LED_POWER
 #undef  BOARD_GPIO_LED_LAN
 #undef  BOARD_GPIO_LED_WAN
